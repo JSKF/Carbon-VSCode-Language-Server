@@ -321,6 +321,32 @@ connection.onCompletion(
 				label: 'Carbon',
 				kind: CompletionItemKind.Text,
 				data: 6
+			},
+			
+			{
+				label: 'Swap',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'Size',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'fn',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'Slice',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'in',
+				kind: CompletionItemKind.Text,
+				data: 6
 			}
 		];
 	}
