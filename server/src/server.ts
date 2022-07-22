@@ -347,6 +347,131 @@ connection.onCompletion(
 				label: 'in',
 				kind: CompletionItemKind.Text,
 				data: 6
+			},
+			{
+				label: 'return',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'let',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'break',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'continue',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'match',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'class',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'abstract',
+				kind: CompletionItemKind.Text,
+				data: 7
+			},
+			{
+				label: 'extends',
+				kind: CompletionItemKind.Text,
+				data: 7
+			},
+			{
+				label: 'private',
+				kind: CompletionItemKind.Text,
+				data: 7
+			},
+			{
+				label: 'public',
+				kind: CompletionItemKind.Text,
+				data: 7
+			},
+			{
+				label: 'choice',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'match',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'case',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'api',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'impl',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'namespace',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'package',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'convert',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'interface',
+				kind: CompletionItemKind.Text,
+				data: 7
+			},
+			{
+				label: 'choice',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'external',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'forall',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'as',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'CommonTypeWith',
+				kind: CompletionItemKind.Text,
+				data: 6
+			},
+			{
+				label: 'Optional',
+				kind: CompletionItemKind.Text,
+				data: 6
 			}
 		];
 	}
@@ -377,6 +502,9 @@ connection.onCompletionResolve(
 		}else if (item.data === 6) {
 			item.detail = 'Carbon Function';
 			item.documentation = 'Function - Description to be added.';
+		}else if (item.data === 7) {
+			item.detail = 'Carbon Class Modifier';
+			item.documentation = 'Class Modifier - Description to be added.';
 		}
 		return item;
 	}
