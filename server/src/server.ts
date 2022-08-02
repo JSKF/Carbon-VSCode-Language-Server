@@ -399,16 +399,6 @@ connection.onCompletion(
 				data: 7
 			},
 			{
-				label: 'choice',
-				kind: CompletionItemKind.Text,
-				data: 6
-			},
-			{
-				label: 'match',
-				kind: CompletionItemKind.Text,
-				data: 6
-			},
-			{
 				label: 'case',
 				kind: CompletionItemKind.Text,
 				data: 6
