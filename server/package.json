@@ -1,8 +1,8 @@
 {
-	"name": "lsp-sample-server",
-	"description": "Example implementation of a language server in node.",
+	"name": "carbon-server",
+	"description": "Example implementation a carbon server",
 	"version": "1.0.0",
-	"author": "Microsoft Corporation",
+	"author": "Nathaniel Mejia",
 	"license": "MIT",
 	"engines": {
 		"node": "*"
